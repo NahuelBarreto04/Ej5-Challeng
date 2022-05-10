@@ -22,14 +22,10 @@ html,
 body {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    background-color: #ffffff;
+    background-color: #181818;
 
 }
 
-.max-width {
-    max-width: 1640px;
-    margin: 0 auto;
-}
 
 /* ***Header Navbar */
 
@@ -119,7 +115,7 @@ body {
 .container_header {
     background-image: url(images/space_header.jpg);
     background-size: cover;
-    background-position-y: -60px;
+    background-repeat: no-repeat;
     background-color: #ffd5ea;
 }
 
@@ -168,7 +164,7 @@ body {
     display: flex;
 }
 
-@keyframes nucba {
+/* @keyframes nucba {
 
     0%,
     10% {
@@ -188,7 +184,7 @@ body {
         visibility: visible;
         border-bottom: 2px dotted #000;
     }
-}
+} */
 
 
 
@@ -394,7 +390,6 @@ body {
 }
 
 .hero3_card {
-
     display: flex;
     justify-content: center;
     /* flex-direction: column; */
