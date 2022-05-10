@@ -1,0 +1,365 @@
+@media (min-width:320px) and (max-width:480px) {
+    * {
+        scroll-snap-type: y mandatory;
+    }
+
+    .container_header {
+        background-position-x: -130px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .menu_links {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        gap: 2px;
+        border-top: 2px solid transparent;
+    }
+
+    .li_link {
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+
+
+    }
+
+    .link_m {
+        width: 100%;
+        height: 100%;
+        border-bottom: 2px solid transparent;
+        border-radius: 0px;
+    }
+
+    .burguer_cont{
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        text-decoration: none;
+    }
+    .burguer_nav {
+        font-size: 4rem;
+        color: white;
+        width: 50%;
+    }
+
+
+    .show {
+        display: flex;
+        z-index: 1;
+    }
+
+
+    /* *********** */
+
+    .ani {
+        width: 90%;
+        margin: 0;
+    }
+
+    .ani span {
+        font-size: 40px;
+    }
+
+    @keyframes nucba {
+
+        0%,
+        10% {
+            visibility: visible;
+        }
+
+        25% {
+            border-bottom: 2px solid #000;
+            color: white;
+        }
+
+        50% {
+            color: #ff6e6c;
+            letter-spacing: 2px;
+        }
+
+        100% {
+            visibility: visible;
+            border-bottom: 2px dotted #000;
+        }
+    }
+
+    /* ***section 1 */
+
+    .card_hero {
+        width: 90%;
+        height: 60%;
+        gap: 3rem;
+        align-items: center;
+
+    }
+
+    .card_hero h1 {
+        width: 25rem;
+        text-align: center;
+    }
+
+    .card_hero p {
+        text-align: center;
+        width: 25rem;
+        font-size: 1.7rem;
+    }
+
+    .img_card {
+        display: none;
+    }
+
+    .buttons_hero1 {
+        justify-content: center;
+    }
+
+    .btn {
+        width: 12rem;
+        font-size: 1.1rem;
+    }
+
+    .btn2 {
+        width: 10rem;
+    }
+
+    /* ***SECTION 2 HERO2** */
+
+    .content_hero2 {
+        width: 90%;
+    }
+
+    /* ***Contenido 1 sec 2 */
+    .cont_1 p,
+    .cont_2 p {
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+
+    .cont_1 img {
+        width: 10rem;
+        height: 15rem;
+        align-self: flex-start;
+    }
+
+    /* ***Contenido 2 sec 2 */
+    .cont_2 {
+        flex-direction: column;
+    }
+
+    .cont_2 p {
+        width: 30rem;
+        align-self: center;
+
+    }
+
+    .cont_2 img {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    /* ****HERO 3*** ************/
+    .hero_3_content {
+        gap: 2rem;
+    }
+
+
+    .h2_titte_hero {
+        font-size: 2.1rem;
+    }
+
+    .p_hero {
+        display: none;
+    }
+
+    /* ***** */
+    .hero3_card {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem
+    }
+
+    .hero3_card_content {
+        width: 90%;
+    }
+
+    .hero3_card_content p {
+        font-size: 0.8rem;
+        width: 60%;
+    }
+
+    .hero3_card_icons {
+        font-size: 2rem;
+    }
+
+    .hero3_card_icons::after {
+        font-size: 0.6rem;
+        left: 40px;
+    }
+
+    /* ***************HERO4 CONFIG*********** */
+    .hero4_card {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .hero4_card_content {
+        width: 90%;
+        gap: .3rem;
+    }
+
+    .hero4_card_content p {
+        font-size: 1.1rem;
+        width: 80%;
+    }
+
+    .hero4_card_icons {
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+        border-radius: 100%;
+    }
+    /* **HERO5*** */
+    .hero_5_content__tittle{
+        font-size: 1.5rem;
+    }
+    /* !Cards Hero5 */
+    .hero_5_content__cards{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .carduser{
+        width: 25rem;
+        height: 10rem;
+    }
+    .carduser__text{
+        font-size: 1rem;
+    }
+    .carduser__img{
+        width: 6rem;
+    }
+    /* **Footerr** */
+    .contact{
+        width: 70%;
+    }
+
+    @media (max-height:660px) {
+
+        .container_header {
+            background-position-y: 30px;
+        }
+
+        /* ***SECTION 1 */
+        .content_hero1{
+            width:90%;
+        }
+        .card_hero h1 {
+            align-self: center;
+            width: 80%;
+            font-size: 2rem;
+        }
+
+        .card_hero p {
+            width: 100%;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            width: 10rem;
+            height: 3.2rem;
+        }
+
+        .btn2 {
+            width: 9rem;
+            font-size: 0.9rem;
+        }
+
+        /* **CONTENIDOS SECTION 2 */
+        .cont_1 p {
+            font-size: 1rem;
+        }
+
+        .cont_2 p {
+            font-size: 1rem;
+            width: 22rem;
+        }
+
+        .cont_2 img {
+            height: 10rem;
+            width: 20rem
+        }
+
+        /* ****HERO 3*** ************/
+        /* ****HERO 3*** ************/
+        .hero_3_content {
+            gap: 1rem;
+            width: 90%;
+        }
+
+        .h2_titte_hero {
+            font-size: 2rem;
+        }
+
+        .hero3_card_content p {
+            font-size: 0.6rem;
+        }
+
+        .hero3_card_icons {
+            font-size: 2rem;
+        }
+
+        /* ***************HERO4 CONFIG*********** */
+
+        .hero4_card_content p {
+            font-size: 0.8rem;
+
+        }
+
+        .hero4_card_icons {
+            font-size: 1rem;
+            padding: 0.6rem 1rem;
+
+        }
+          /* **HERO5*** */
+    .hero_5_content__tittle{
+        font-size: 1.2rem;
+    }
+    .hero_5_content{
+        width: 90%;
+    }
+    /* !Cards Hero5 */
+    .hero_5_content__cards{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .carduser{
+        width: 20rem;
+        height: 8rem;
+    }
+    .carduser__text{
+        font-size: 1rem;
+    }
+    .carduser__img{
+        width: 4rem;
+    }
+    /* **Footerr** */
+    .contact{
+        width: 70%;
+    }
+
+    }
+
+}
